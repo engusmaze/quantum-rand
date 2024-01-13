@@ -1,0 +1,14 @@
+[package]
+name = "quantum-rand"
+version = "0.1.0"
+edition = "2021"
+description = "Quantum Random Number Generator?"
+tags = ["rng", "random", "qrng", "quantum"]
+repository = "https://github.com/engusmaze/quantum-rand"
+homepage = "https://github.com/engusmaze/quantum-rand"
+license = "Apache-2.0 OR MIT"
+exclude = ["*.png"]
+readme = "README.md"
+
+[dev-dependencies]
+image = { version = "0.24.7", default-features = false, features = ["png"] }
